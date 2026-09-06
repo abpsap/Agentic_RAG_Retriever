@@ -1,0 +1,30 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Local vector databases and generated indexes
+faiss_index/
+vectorstore/
+chroma/
+
+# Archives
+*.zip
